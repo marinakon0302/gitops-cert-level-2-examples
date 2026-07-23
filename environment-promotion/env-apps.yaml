@@ -12,7 +12,7 @@ spec:
       - path: environment-promotion/envs/*
   template:      
     metadata:
-      name: '{{path.basename}}-app'
+      name: '{{path.basename}}'
     spec:
       # The project the application belongs to.
       project: default
